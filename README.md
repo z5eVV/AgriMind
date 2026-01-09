@@ -1,9 +1,9 @@
 # AgriMind: An Optimized Logic Layer for FreshAgent Alpha Ⅱ
 
-> **Note:** This project is a **logic-layer refactor** based on the open-source [FreshAgent Alpha II](https://github.com/CyanCQC/FreshAgent-Alpha-II) architecture. It focuses on optimizing **Task Planning** and **Prompt Engineering** for better intent understanding.
+> **Note:** This project is a **logic-layer refactor** based on my original team's open-source [FreshAgent Alpha II](https://github.com/CyanCQC/FreshAgent-Alpha-II) architecture. It focuses on optimizing **Task Planning** and **Prompt Engineering** for better intent understanding.
 
 ## Motivation
-
+ 
 在主导 FreshAgent 项目商业落地的过程中，我发现原始的基础模型在处理用户非线性、多步骤的复杂需求时，往往表现出任务规划僵化的问题。
 
 作为项目负责人之一，为了验证更灵活的调度逻辑，我基于原有的底层架构（视觉/数据库模块），**独立重构了核心 Agent 的决策层代码 (`CoreAgent` Class)**。本项目即为该优化实验的成果展示。
@@ -27,3 +27,7 @@
 
 *   **Logic Layer (My Focus):** `AgriMind.py` (Core reasoning & dispatching).
 *   **Infrastructure Layer (Legacy):** `DBHandler`, `FastSAM`, `GUI` (Inherited from the original team's robust implementation).
+
+## LICENSE
+
+本项目采用 [MIT许可证](LICENSE) 开源
